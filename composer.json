@@ -1,0 +1,22 @@
+{
+  "name": "anyitsolutions/symfony-shared-events",
+  "type": "library",
+  "description": "Symfony Shared Events",
+  "keywords": [],
+  "homepage": "https://github.com/anyitsolutions/symfony-amqp-events",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alejandro Yakovlev",
+      "email": ""
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "SharedEvents\\": "src/"
+    }
+  }
+}
